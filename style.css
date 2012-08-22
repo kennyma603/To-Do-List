@@ -1,0 +1,152 @@
+body{
+	background: #260930;
+}
+#wrapper{
+	width: 800px;
+	margin: 20px auto;
+}
+
+#calendar{
+	padding: 0px 0px 0px;
+	background: #fff;
+	border: 1px solid #F7B64A;
+}
+	#calendar #heading{
+		position: relative;
+		line-height: 30px;
+		background: #F7B64A;
+	}
+	#calendar .title{
+		padding: 0 50px;
+		text-align: center;
+	}
+	#calendar .preMonth, #calendar .nextMonth{
+		height: 20px;
+		line-height: 20px;
+		padding: 0px 10px;
+		font-size: 13px;
+		background: #F7B64A;
+		border: 1px solid #fff;
+		top: 5px;
+		text-decoration: none;
+	}
+	#calendar .preMonth{
+		position: absolute;
+		left: 10px;	
+	}
+	#calendar .nextMonth{
+		position: absolute;
+		right: 10px;
+	}
+	#calendar #dayLabel{
+		text-align: justify;
+		background: #fff;
+	}
+	#calendar .dayLabelItem, #calendar .day, #calendar .noday{
+		display: inline-block;
+		width: 110px;
+		text-align: center;
+		border: 1px solid #f0f0f0;
+		margin: 1px;
+	}
+	#calendar .day{	cursor: pointer;}
+	#calendar  .currentDay{
+		background: #F7B64A;
+	}
+	#calendar  .selected{
+		background: #652D9A;
+		color: #fff;
+	}
+#weather{
+	width: 800px;
+	margin-top: 20px;
+	color: #fff;
+}
+	#weather .forecastItem:before, .forecast:before{
+		content: " ";
+		display: table;
+	}
+	#weather .forecastItem:after, .forecast:after{
+		content: " ";
+		display: table;
+		clear: both;
+	}
+	#weather .forecastItem{
+		padding: 10px;
+		text-align: center;
+	}
+	#weather .forecastItem span{
+		display: inline-block;
+		margin-right: 20px;
+	}
+	#weather .noData{
+		display: none;
+	}
+#date{
+	margin: 20px 0 0;
+}
+	#date h1{
+		font-size: 30px;
+		color: #fff;
+		text-align: center;
+	}
+#todolist-input{
+	color: #fff;
+	margin: 20px 0 0;
+	background: #652D9A;
+	padding: 10px;
+}
+	#todolist-input .taskName{
+		float: left;
+	}
+	#todolist-input .taskType{
+		float: left;
+		margin-left: 20px;
+	}
+	#todolist-input label{margin-right: 10px;}
+	
+#todolist{
+	margin-top: 0px;
+}	
+	#todolist .todoItem{
+		margin-bottom: 5px;
+		padding: 10px;
+		overflow: hidden;
+		display: block;
+	    background: -moz-linear-gradient(left center , #7CA024 3%, #9AB92F 98%) repeat scroll 0 0 transparent;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7CA024', endColorstr='#9AB92F'); /* for IE */
+		background: -webkit-gradient(linear, left top, center bottom, from(#7CA024), to(#9AB92F)); /* for webkit browsers */	    
+	    border: 1px solid #AAB662;
+	}
+	#todolist .itemName{
+		float: left;
+		margin: 0 10px;
+		font-weight: bold;
+	}
+	#todolist .itemType{
+		float: right;
+		margin: 0 10px;
+		text-transform: uppercase;
+	}
+	#todolist .itemDelete{
+		float: right;
+		margin: 0 10px;
+		text-transform: lowercase;
+		font-size: 11px;
+		cursor: pointer;
+		background: #652D9A;
+		padding: 3px;
+		color: #fff;
+		position: relative; 
+		top: 2px;
+	}
+	
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}

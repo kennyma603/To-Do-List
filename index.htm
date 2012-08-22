@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<style type="text/css" src="style.css"></style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="calendar"></div>
+		<div id="date"></div>
+		<div id="weather"></div>
+		<div id="todolist-input" class="cf">
+			<form id="addTodoItem" data-date="">
+				<div class="taskName cf">
+					<label>Task Name:</label>
+					<input type="text" name="taskName" id="taskName" />
+				</div>
+				<div class="taskType cf">
+					<label>Task Type:</label>
+					<select name="taskType" id="taskType">
+						<option value="Meetings">Meetings</option>
+						<option value="Appointments">Appointments</option>
+						<option value="Tasks">Tasks</option>
+					</select>
+					<input type="submit" value="Add" />
+				</div>
+			</form> 		
+		</div>
+		<div id="todolist"></div>
+	</div>
+</body>
+</html>

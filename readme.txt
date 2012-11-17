@@ -1,5 +1,7 @@
 To Do List
 
+Demo: http://kennyma.ca/demo/calendar/
+
 a little app that I worked on in the last few day.
 
 It is a small Calendar + To Do list App.
